@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 from contextlib import contextmanager
-from . import speedtest
+import speedtest
 
 class CaseData:
     def __init__(self, number, limits, train_data, test_data):
